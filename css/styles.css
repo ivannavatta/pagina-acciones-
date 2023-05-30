@@ -467,7 +467,9 @@ display: flex;
         
     }
     i{
-        padding: 1.5rem;
+        padding: 1rem;
+        position: relative;
+        right: 2rem;
     }
     .principio{
     
@@ -526,14 +528,16 @@ display: flex;
         
         position: relative;
         bottom: 12rem;
-        left: 3rem;
+        left: 1rem;
+        font-size: 3.5rem;
         
         
     }
     .formu{
        
         position: relative;
-        left: 8rem;
+        left: 9rem;
+        padding-left: 0%;
        
     }
    
