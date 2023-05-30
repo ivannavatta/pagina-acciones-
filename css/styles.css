@@ -429,9 +429,10 @@ display: flex;
         width: 30%;
         position: relative;
         bottom: 2rem;
+        right: 2.5rem ;
     }
     li{
-        left: 6rem;
+        left: 2.6rem;
         
         position: relative;
         bottom: 11rem;
