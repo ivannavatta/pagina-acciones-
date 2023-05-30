@@ -432,7 +432,7 @@ display: flex;
         right: 2.5rem ;
     }
     li{
-        left: 2.6rem;
+        left: 2.2rem;
         
         position: relative;
         bottom: 11rem;
@@ -469,7 +469,7 @@ display: flex;
     i{
         padding: 1rem;
         position: relative;
-        right: 2rem;
+        right: 1.5rem;
     }
     .principio{
     
@@ -489,13 +489,13 @@ display: flex;
         padding-top: 3rem;
     }
     .txt{
-        padding-left: 0rem;
+        padding-left: 0.5rem;
         font-size: 1rem;
       
     }
     .subtitulo{
       
-        padding-left: 5rem;
+        padding-left: 0rem;
     }
     .pp{
         
@@ -518,7 +518,7 @@ display: flex;
        
         position: relative;
         bottom: 12rem;
-        left: 5rem;
+        left: 2.7rem;
       
         
         
@@ -536,7 +536,7 @@ display: flex;
     .formu{
        
         position: relative;
-        left: 9rem;
+        left: 12rem;
         padding-left: 0%;
        
     }
