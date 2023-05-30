@@ -1,0 +1,540 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: #033353;
+   height: 8rem;
+   width: 100%;
+   position: sticky;
+   z-index: 1;
+   
+}
+
+.logo{
+    width: 12rem;
+    height: 12rem;
+    margin-left: 20rem;
+    margin-bottom: 7rem;
+    
+}
+
+.inicio{
+    list-style-type: none;
+
+}
+li{
+    display: inline-block;
+    position: relative;
+    bottom: 15.5rem;
+    left: 40rem;
+    padding-left: 6rem;
+    font-family: 'Chakra Petch', sans-serif;
+    
+
+}
+.banner{
+    width: 100%;
+    height: 22rem;
+    
+    
+    
+    
+}
+body{
+    font-family: 'Chakra Petch', sans-serif;   
+}
+
+.subtitulo{
+    font-family: 'Forum', cursive;
+    color: #033353;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 32rem;
+}
+.eslogan{
+    
+    width: 100%;
+    position: relative;
+    bottom: 2rem;
+    background-color: #033353;
+   
+    
+    
+}
+.pp{
+    color: white;
+    position: relative;
+    font-size: 2rem;
+    font-family: 'Chakra Petch', sans-serif;  
+    font-weight: normal;
+    white-space: nowrap;
+    border-right: 4px ;
+    width: 60ch;
+    animation: typing 2s steps(60), 
+    blink .5s infinite step-end alternate ;
+    overflow: hidden;
+}
+@keyframes typing {
+    from { width: 0;}
+}
+@keyframes blink {
+    50% { border-color: transparent;}
+}
+nav{
+    color: white;
+}
+.txt{
+    padding-left: 32rem;
+    font-family: 'Chakra Petch', sans-serif; 
+}
+.yt{
+    width: 65%;
+    height: 18.75rem;
+    position: relative;
+    padding-left: 45rem;
+    padding-top: 3rem;
+}
+.lower{
+    position: relative;
+    padding-top: 3rem;
+}
+.ventajas{
+    position: relative;
+    padding-top: 16rem;
+    right: 14rem;
+}
+
+ol{
+    list-style-type: upper-roman;
+    position: relative;
+    margin-top: 15rem;
+}
+strong{
+    color: #033353;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+
+}
+nav ul a:hover{
+    background-color: white;
+    color: #033353;
+    border-radius: 1.3rem;
+}
+.principio{
+    
+    position: relative;
+    left: 60rem;
+    top: 1rem;
+    color: white;
+    text-decoration: none;
+    
+}
+.botton{
+   background-color: #065a92;
+   height: 3rem;
+}
+fieldset{
+    text-align: center;
+    
+}
+i{
+    font-size: 2rem;
+    padding: 2rem;
+}
+i:hover{
+    color: white;
+}
+.pr{
+    display: inline-block;
+    position: relative;
+    color: white;
+    
+    
+    
+}
+.pr h3{
+    position: relative;
+    right: 15rem;
+}
+.pr p{
+    position: relative;
+    right: 15.5rem;
+}
+.info{
+    display: inline-block;
+   
+    color: white;
+    
+}
+.info h3{
+    position: relative;
+    left: 19rem;
+}
+.info p{
+    position: relative;
+    left: 19rem;
+}
+.pr p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    background-color: #033353;
+}
+.copy{
+    position: relative;
+    right: 14rm;
+}
+form{
+    text-align: center;
+    position: relative;
+    
+}
+.registrar{
+    font-family: 'Chakra Petch', sans-serif; 
+}
+.contactanos{
+    height: 22rem;
+    width: 100%;
+    
+}
+.up{
+    display: inline-block;
+    position: relative;
+    bottom: 12rem;
+    left: 52rem;
+    font-size: 4rem;
+    color:white;
+    font-weight: bold;
+}
+.formu{
+    display: inline-block;
+    position: relative;
+    left: 24rem;
+    margin-bottom: 2rem;
+}
+.fm{
+    position: relative;
+    bottom: 2.5rem;
+}
+.preguntasFrecuentes{
+    width: 100%;
+    height: 22rem;
+}
+.titulo-preguntasfrecuentes{
+    display: inline-block;
+    position: relative;
+    bottom: 12rem;
+    left: 50rem;
+    font-size: 4rem;
+    color:white;
+    font-weight: bold;
+    
+    
+
+}
+.acordion{
+    width: 100rem;
+    
+}
+.centrar-acordion{
+    padding-left: 25rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.imginversiones{
+    width: 100%;
+    height: 22rem;
+}
+.imgacciones{
+    
+    width: 30%;
+    
+    margin-left: 2rem;
+    border-radius: 3rem;
+}
+.acciones{
+    display: flex;
+    padding-top: 2.5rem;
+    align-items: center;
+    line-height: 2rem;
+    
+}
+.contenedoracciones{
+    display: block;
+    position: relative;
+   
+    background-color: rgba(0, 132, 255, 0.178);
+    bottom: 5.5rem;
+    padding-bottom: 2rem;
+    padding-left: 45rem;
+}
+.acciones p{
+    
+    padding-left: 1.5rem;
+}
+.accionesflex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tituloinversiones{
+    display: inline-block;
+    position: relative;
+    bottom: 12rem;
+    left: 50rem;
+    font-size: 4rem;
+    color:white;
+    font-weight: bold;
+
+}
+.imgbonos{
+    width: 30%;
+    
+    margin-left: 2rem;
+    border-radius: 3rem;
+}
+.contenedorbonos{
+    display: block;
+    position: relative;
+   
+    background-color: rgba(0, 132, 255, 0.082);
+    bottom: 5.5rem;
+    padding-bottom: 2rem;
+    padding-left: 44rem;
+}
+.bonos{
+    display: flex;
+    padding-top: 2.5rem;
+    align-items: center;
+    line-height: 2rem;
+}
+.bonosflex{
+    display: flex;
+    flex-direction: column;
+}
+.imgetf{
+    width: 30%;
+    height: 12.5rem;
+    margin-left: 2rem;
+    border-radius: 3rem;
+}
+.contenedoretf{
+    display: block;
+    position: relative;
+   
+    background-color: rgba(0, 132, 255, 0.178);
+    bottom: 5.5rem;
+    padding-bottom: 2rem;
+    padding-left: 44rem;
+}
+.etf{
+    display: flex;
+    padding-top: 2.5rem;
+    align-items: center;
+    line-height: 2rem;
+}
+.etfflex{
+
+display: flex;
+    flex-direction: column;
+}
+.imgfondosmutuos{
+    width: 30%;
+    
+    margin-left: 2rem;
+    border-radius: 3rem;
+}
+.contenedorfondosmutuos{
+    display: block;
+    position: relative;
+   
+    background-color: rgba(0, 132, 255, 0.082);
+    bottom: 5.5rem;
+    padding-bottom: 2rem;
+    padding-left: 44rem;
+}
+.fondosmutuos{
+    display: flex;
+    padding-top: 2.5rem;
+    align-items: center;
+    line-height: 2rem;
+}
+.fondosmutuosflex{
+    display: flex;
+    flex-direction: column;
+}
+.imgfuturos{
+    width: 30%;
+    
+    margin-left: 2rem;
+    border-radius: 3rem;
+}
+.contenedorfuturos{
+    display: block;
+    position: relative;
+   
+    background-color: rgba(0, 132, 255, 0.178);
+    bottom: 5.5rem;
+    padding-bottom: 2rem;
+    padding-left: 44rem;
+}
+.futuros{
+    display: flex;
+    padding-top: 2.5rem;
+    align-items: center;
+    line-height: 2rem;
+}
+.futurosflex{
+    display: flex;
+    flex-direction: column;
+}
+.inicio_responsive{
+    display: none;
+}
+@media  screen and (max-width: 500px) {
+    footer{
+        background-color:#033353;
+        width: 100%;
+        position: relative;
+        top: 3rem;
+    }
+   
+    .inversionesresponsive{
+       position: relative;
+        
+    }
+    .centrar-acordion{
+        padding: 0%;
+    }
+    .acordion{
+        width: auto;
+    }
+    header{
+        height: 4rem;
+    }
+    .logo{
+        margin: auto;
+        width: 30%;
+        position: relative;
+        bottom: 2rem;
+    }
+    li{
+        left: 6rem;
+        
+        position: relative;
+        bottom: 11rem;
+        font-size: 0.5rem;
+        padding: 0rem;
+        
+    }
+    .info {
+        position: relative;
+        right: 19rem;
+        margin-top: 2rem;
+        
+    }
+    .info h3{
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+    .copy{
+       
+        position: relative;
+        right: 0rem;
+    }
+    .pr h3{
+        position: relative;
+        right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+    .pr p{
+        position: relative;
+        right: 0rem;
+
+        
+    }
+    i{
+        padding: 1.5rem;
+    }
+    .principio{
+    
+        position: relative;
+        left: 13rem;
+    }
+    .botton{
+       position: relative;
+        height: 3rem;
+        top: 3rem;
+     }
+     .yt{
+        width: 85%;
+        height: 18.75rem;
+        position: relative;
+        padding-left: 6rem;
+        padding-top: 3rem;
+    }
+    .txt{
+        padding-left: 0rem;
+        font-size: 1rem;
+      
+    }
+    .subtitulo{
+      
+        padding-left: 5rem;
+    }
+    .pp{
+        
+        position: relative;
+        font-size: 0.95rem;
+        width: 50ch;
+       
+    }
+    .eslogan{
+    
+        
+        position: relative;
+        bottom: 1rem;
+        
+       
+        
+        
+    }
+    .titulo-preguntasfrecuentes{
+       
+        position: relative;
+        bottom: 12rem;
+        left: 5rem;
+      
+        
+        
+    
+    }
+    .up{
+        
+        position: relative;
+        bottom: 12rem;
+        left: 3rem;
+        
+        
+    }
+    .formu{
+       
+        position: relative;
+        left: 8rem;
+       
+    }
+   
+    
+}
