@@ -415,6 +415,9 @@ display: flex;
 #check{
     display: none;
 }
+.pp_responsive{
+    display: none;
+}
 
 @media  screen and (max-width: 500px) {
     footer{
@@ -589,6 +592,9 @@ display: flex;
     }
     nav{
         position: fixed;
+    }
+    .pp_responsive{
+        display: block;
     }
    
     
