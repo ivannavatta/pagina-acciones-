@@ -486,12 +486,12 @@ display: flex;
     i{
         padding: 1rem;
         position: relative;
-        right: 1rem;
+        right: 0rem;
     }
     .principio{
     
         position: relative;
-        left: 11rem;
+        left: 9rem;
     }
     .botton{
        position: relative;
