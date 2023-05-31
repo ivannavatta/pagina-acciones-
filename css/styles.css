@@ -486,7 +486,7 @@ display: flex;
     i{
         padding: 1rem;
         position: relative;
-        right: 1.5rem;
+        right: 1rem;
     }
     .principio{
     
@@ -512,13 +512,14 @@ display: flex;
     }
     .subtitulo{
       
-        padding-left: 0rem;
+        padding-left: 0.5rem;
     }
     .pp{
         
         position: relative;
         font-size: 0.95rem;
-        width: 40ch;
+        width: 38ch;
+        padding-left: 0.5rem;
        
     }
     .eslogan{
@@ -553,7 +554,7 @@ display: flex;
     .formu{
        
         position: relative;
-        left: 12rem;
+        left: 9rem;
         padding-left: 0%;
        
     }
