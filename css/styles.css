@@ -597,6 +597,93 @@ display: flex;
     .pp_responsive{
         display: block;
     }
-   
+    .acciones{
+        display: block;
+        padding-left: 0.5rem;
+       
+        
+    }
+    .contenedoracciones{
+        display: block;
+      
+        padding-left: 0rem;
+    }
+    .imgacciones{
     
+        width: 70%;
+        margin-left: 4rem;
+        
+       
+    }
+    .imgbonos{
+        width: 70%;
+        
+        margin-left: 4rem;
+        
+    }
+    .contenedorbonos{
+        display: block;
+       
+        padding-left: 0rem;
+    }
+    .bonos{
+        display: block;
+        padding-left: 0.5rem;
+        
+    }
+    .imgetf{
+        width: 70%;
+        
+        margin-left: 4rem;
+        
+    }
+    .contenedoretf{
+        display: block;
+      
+        padding-left: 0rem;
+    }
+    .etf{
+        display: block;
+        padding-left: 0.5rem;
+        
+    }
+    .imgfondosmutuos{
+        width: 70%;
+        
+        margin-left: 4rem;
+       
+    }
+    .contenedorfondosmutuos{
+        display: block;
+      
+        padding-left: 0rem;
+    }
+    .fondosmutuos{
+        display: block;
+        padding-left: 0.5rem;
+       
+    }
+    .imgfuturos{
+        width: 70%;
+        
+        margin-left: 4rem;
+        
+    }
+    .contenedorfuturos{
+        display: block;
+       
+        padding-left: 0rem;
+    }
+    .futuros{
+        display: block;
+       padding-left: 0.5rem;
+    }
+    .tituloinversiones{
+        display: inline-block;
+        position: relative;
+        
+        left: 3rem;
+        
+    
+    }
 }
