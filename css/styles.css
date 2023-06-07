@@ -681,8 +681,7 @@ display: flex;
     .tituloinversiones{
         display: inline-block;
         position: relative;
-        
-        left: 0.5rem;
+        left: 0rem;
         
     }
 }
