@@ -203,10 +203,9 @@ footer{
     
 }
 .up{
-    display: inline-block;
+    text-align: center;
     position: relative;
     bottom: 12rem;
-    left: 52rem;
     font-size: 4rem;
     color:white;
     font-weight: bold;
@@ -226,10 +225,9 @@ footer{
     height: 22rem;
 }
 .titulo-preguntasfrecuentes{
-    display: inline-block;
+    text-align: center;
     position: relative;
     bottom: 12rem;
-    left: 50rem;
     font-size: 4rem;
     color:white;
     font-weight: bold;
@@ -295,10 +293,9 @@ footer{
     
 }
 .tituloinversiones{
-    display: inline-block;
+    text-align: center;
     position: relative;
     bottom: 12rem;
-    left: 50rem;
     font-size: 4rem;
     color:white;
     font-weight: bold;
@@ -484,10 +481,9 @@ display: flex;
     height: 22rem;
 }
 .titulocomoinvertir{
-    display: inline-block;
+    text-align: center;
     position: relative;
     bottom: 12rem;
-    left: 50rem;
     font-size: 4rem;
     color:white;
     font-weight: bold;
@@ -967,32 +963,7 @@ letter-spacing: 0.05rem;
         
         
     }
-    .titulo-preguntasfrecuentes{
-       
-        position: relative;
-        bottom: 12rem;
-        left: 2.7rem;
-      
-        
-        
-    
-    }
-    .up{
-        
-        position: relative;
-        bottom: 12rem;
-        left: 1rem;
-        font-size: 3.5rem;
-        
-        
-    }
-    .formu{
-       
-        position: relative;
-        left: 9rem;
-        padding-left: 0%;
-       
-    }
+   
     .checkbtn{
         display: block;
         
@@ -1046,7 +1017,7 @@ letter-spacing: 0.05rem;
     .imgacciones{
         display: none;
     
-        width: 70%;
+        width: 100%;
         margin-left: 4rem;
         
        
@@ -1148,21 +1119,7 @@ letter-spacing: 0.05rem;
         display: block;
        padding-left: 1.5rem;
     }
-    .tituloinversiones{
-        display: inline-block;
-        position: relative;
-        left: 0rem;
-        
-    }
-    .titulocomoinvertir{
-        display: inline-block;
-        position: relative;
-        bottom: 12rem;
-        left: 1.2rem;
-        font-size: 3rem;
-
-        
-    }
+   
     .centrarpasoscomoinvertir{
         display: flex;
         flex-direction: column;
@@ -1234,7 +1191,19 @@ letter-spacing: 0.05rem;
     .box{
     
         position: relative;
-      
-        left: 0.9rem;
+        width: 100%;
+        left: 0rem;
+    }
+    .titulocomoinvertir{
+        font-size: 2.5rem;
+    }
+    .up{
+        font-size: 2.5rem;
+    }
+    .titulo-preguntasfrecuentes{
+        font-size: 2.5rem;
+    }
+    .tituloinversiones{
+        font-size: 2.5rem;
     }
 }
