@@ -17,7 +17,8 @@ header{
 .logo{
     width: 12rem;
     height: 12rem;
-    
+    margin-left: 20rem;
+    margin-bottom: 7rem;
     
 }
 
@@ -727,7 +728,7 @@ section div i{
     position: absolute;
     inset: 4px;
     background: rgb(3, 51, 83);
-    padding: 50px 40px;
+    padding: 50px 22px;
     border-radius: 8px;
     z-index: 2;
     display: flex;
@@ -871,10 +872,10 @@ letter-spacing: 0.05rem;
         z-index: 3;
     }
     .logo{
-        
+        margin: auto;
         width: 100%;
         position: relative;
-        bottom: 2.2rem;
+        bottom: 2.3rem;
         
     }
     li{
@@ -948,7 +949,7 @@ letter-spacing: 0.05rem;
         
         position: relative;
         font-size: 0.95rem;
-        width: 35ch;
+        width: 33ch;
         padding-left: 0.5rem;
        
     }
@@ -1192,8 +1193,9 @@ letter-spacing: 0.05rem;
     .box{
     
         position: relative;
-        width: 100%;
-        left: 0rem;
+        width: 95%;
+        left: 0.5rem;
+        
     }
     .titulocomoinvertir{
         font-size: 2.5rem;
