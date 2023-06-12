@@ -130,13 +130,13 @@ nav ul a:hover{
 .principio{
     
     position: relative;
-    left: 60rem;
     top: 1rem;
     color: white;
     text-decoration: none;
     
 }
 .botton{
+    text-align: center;
    background-color: #065a92;
    height: 3rem;
 }
@@ -577,7 +577,7 @@ section article .txt{
 }
 .Abri_una_cuenta_sin_costo{
     display: flex;
-    
+    color: black;
     flex-direction: row;
     padding-top: 3rem;
     
@@ -613,6 +613,7 @@ section article .txt{
 .Realiza_una_operacion{
     padding-top: 3rem;
     display: flex;
+    color: black;
 }
 .img_realizar_operacion{
     width: 20%;
@@ -644,6 +645,7 @@ section article .txt{
     display: flex;
     flex-direction: row;
     padding-top: 3rem;
+    color: black;
 }
 .img_finalizar_operacion{
     width: 20%;
@@ -919,11 +921,6 @@ letter-spacing: 0.05rem;
         right: 0rem;
         bottom: .8rem;
     }
-    .principio{
-    
-        position: relative;
-        left: 9rem;
-    }
     .botton{
        position: relative;
         height: 3rem;
@@ -951,6 +948,7 @@ letter-spacing: 0.05rem;
         font-size: 0.95rem;
         width: 33ch;
         padding-left: 0.5rem;
+        animation: none;
        
     }
     .eslogan{
