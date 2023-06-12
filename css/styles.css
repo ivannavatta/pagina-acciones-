@@ -17,8 +17,7 @@ header{
 .logo{
     width: 12rem;
     height: 12rem;
-    margin-left: 20rem;
-    margin-bottom: 7rem;
+    
     
 }
 
@@ -872,11 +871,11 @@ letter-spacing: 0.05rem;
         z-index: 3;
     }
     .logo{
-        margin: auto;
-        width: 35%;
+        
+        width: 100%;
         position: relative;
-        bottom: 2.3rem;
-        right: 1.5rem ;
+        bottom: 2.2rem;
+        
     }
     li{
         left: 2.2rem;
@@ -949,7 +948,7 @@ letter-spacing: 0.05rem;
         
         position: relative;
         font-size: 0.95rem;
-        width: 38ch;
+        width: 35ch;
         padding-left: 0.5rem;
        
     }
@@ -998,6 +997,8 @@ letter-spacing: 0.05rem;
         
     }
     nav{
+        display: flex;
+        flex-direction: row-reverse;
         position: fixed;
     }
     .pp_responsive{
