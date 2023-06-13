@@ -1,0 +1,325 @@
+main{
+    div{
+        .imginversiones{
+            width: 100%;
+            height: 22rem;
+        }
+        .tituloinversiones{
+            text-align: center;
+            position: relative;
+            bottom: 12rem;
+            font-size: 4rem;
+            color:white;
+            font-weight: bold;
+        }
+        .contenedoracciones{
+            display: block;
+            position: relative;
+            bottom: 5.5rem;
+            padding-bottom: 2rem;
+            padding-left: 45rem;
+            @include mobile{
+                display: block;
+                 padding-left: 0rem;
+            }
+            .acciones{
+                display: flex;
+                padding-top: 2.5rem;
+                align-items: center;
+                line-height: 2rem;
+                @include mobile{
+                    display: block;
+                    padding-left: 1.5rem;
+                }
+                .imgacciones{
+    
+                    width: 70%;
+                    height: 20rem;
+                    position: relative;
+                    right: 15rem;
+                    border-radius: 2rem;
+                    @include mobile{
+                        display: none;
+                        width: 100%;
+                        margin-left: 4rem;
+                    }
+                }
+                .accionesflex{
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    right: 1rem;
+                    .tituloacciones{
+                        color:#033353 ;
+                        text-decoration: overline;
+                        font-family: 'Forum', cursive;
+                        font-weight: bold;
+                    }
+                    p{
+    
+                        padding-left: 1.5rem;
+                    }
+                    .learnmore{
+                        color: #033353;
+                        font-weight: bold;
+                        a{
+                            text-decoration: none;
+                            color: #033353;
+                        }
+                    }
+                    
+                }
+                .imgaccionesresponsive{
+                    display: none;
+                    @include mobile{
+                        display: block;
+                        width: 80%;
+                        margin-left: 1.5rem;
+                        border-radius: 2rem;
+                        height: 12rem;
+                    }
+                }
+                
+            }
+        }
+        .contenedorbonos{
+            display: block;
+            position: relative;
+            bottom: 5.5rem;
+            padding-bottom: 2rem;
+            padding-left: 40rem;
+            @include mobile{
+                display: block;
+                padding-left: 0rem;
+            }
+            .bonos{
+                display: flex;
+                padding-top: 2.5rem;
+                align-items: center;
+                line-height: 2rem;
+                @include mobile{
+                    display: block;
+                    padding-left: 0.5rem;
+                }
+                .bonosflex{
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    right: 10rem;
+                    @include mobile{
+                        position: relative;
+                        left: 0rem;
+                    }
+                    .titulobonos{
+                        color: #033353;
+                        text-decoration: overline;
+                        font-family: 'Forum', cursive;
+                        font-weight: bold;
+                    }
+                    .learnmore{
+                        color: #033353;
+                        font-weight: bold;
+                        a{
+                            text-decoration: none;
+                            color: #033353;
+                        }
+                    }
+                }
+                .imgbonos{
+                    width: 40%;
+                    position: relative;
+                    margin-left: 2rem;
+                    border-radius: 2rem;
+                    right: 1rem;
+                    @include mobile{
+                        width: 80%;
+                        margin-left: 3rem;
+                    }
+                }
+            }
+        }
+        .contenedoretf{
+            display: block;
+            position: relative;
+            bottom: 5.5rem;
+            padding-bottom: 2rem;
+            padding-left: 44rem;
+            @include mobile{
+                display: block;
+                padding-left: 0rem;
+            }
+            .etf{
+                display: flex;
+                padding-top: 2.5rem;
+                align-items: center;
+                line-height: 2rem;
+                @include mobile{
+                    display: block;
+                    padding-left: 1.5rem;
+                }
+                .imgetf{
+                    width: 50%;
+                    height: 20rem;
+                    position: relative;
+                    right: 15rem;
+                    border-radius: 2rem;
+                    @include mobile{
+                        display: none;
+                         width: 70%;
+                        margin-left: 4rem;
+                    }
+                }
+                .etfflex{
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        right: 1rem;
+                        .tituloetf{
+                            color: #033353;
+                            text-decoration: overline;
+                            font-family: 'Forum', cursive;
+                            font-weight: bold;
+                        }
+                        .learnmore{
+                            color: #033353;
+                            font-weight: bold;
+                            a{
+                                text-decoration: none;
+                                color: #033353;
+                            }
+                        }
+                }
+                .imgetfresponsive{
+                    display: none;
+                    @include mobile{
+                        display: block;
+                        width: 80%;
+                        margin-left: 1.5rem;
+                        border-radius: 2rem;
+                        height: 12rem;
+                    }
+                }
+            }
+        }
+        .contenedorfondosmutuos{
+            display: block;
+            position: relative;
+            bottom: 5.5rem;
+            padding-bottom: 2rem;
+            padding-left: 44rem;
+            @include mobile{
+                display: block;
+                padding-left: 0rem;
+            }
+            .fondosmutuos{
+                display: flex;
+                padding-top: 2.5rem;
+                align-items: center;
+                line-height: 2rem;
+                @include mobile{
+                    display: block;
+                    padding-left: 0.5rem;
+                }
+                .fondosmutuosflex{
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    right: 10rem;
+                    @include mobile{
+                        position: relative;
+                        left: 0rem;
+                    }
+                    .titulofondosmutuos{
+                        color: #033353;
+                        text-decoration: overline;
+                        font-family: 'Forum', cursive;
+                        font-weight: bold;
+                    }
+                    .learnmore{
+                        color: #033353;
+                        font-weight: bold;
+                        a{
+                            text-decoration: none;
+                            color: #033353;
+                        }
+                    }
+                }
+                .imgfondosmutuos{
+                    width: 40%;
+                    position: relative;
+                    margin-left: 2rem;
+                    border-radius: 2rem;
+                    right: 1rem;
+                    @include mobile{
+                        width: 80%;
+                        margin-left: 3rem;
+                    }
+                }
+            }
+        }
+        .contenedorfuturos{
+            display: block;
+            position: relative;
+            bottom: 5.5rem;
+            padding-bottom: 2rem;
+            padding-left: 44rem;
+            @include mobile{
+                display: block;
+                padding-left: 0rem;
+            }
+            .futuros{
+                display: flex;
+                padding-top: 2.5rem;
+                align-items: center;
+                line-height: 2rem;
+                @include mobile{
+                    display: block;
+                    padding-left: 1.5rem;
+                }
+                .imgfuturos{
+                    width: 50%;
+                    height: 20rem;
+                    position: relative;
+                    right: 13.3rem;
+                    border-radius: 2rem;
+                    @include mobile{
+                        display: none;
+                        width: 70%;
+                        margin-left: 4rem;
+                    }
+                }
+                .futurosflex{
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    right: 1rem;
+                    .titulofuturos{
+                        color: #033353;
+                        text-decoration: overline;
+                        font-family: 'Forum', cursive;
+                        font-weight: bold;
+                    }
+                    .learnmore{
+                        color: #033353;
+                        font-weight: bold;
+                        a{
+                            text-decoration: none;
+                            color: #033353;
+                        }
+                    }
+
+                }
+                .imgfuturosresponsive{
+                    display: none;
+                    @include mobile{
+                        display: block;
+                        width: 80%;
+                        margin-left: 1.5rem;
+                        border-radius: 2rem;
+                        height: 12rem;
+                    }
+                }
+            }
+        }
+    }
+}

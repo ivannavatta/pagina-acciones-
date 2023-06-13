@@ -1,0 +1,113 @@
+header{
+    background-color: #033353;
+   height: 8rem;
+   width: 100%;
+   position: sticky;
+   z-index: 1;
+   @include mobile {
+        height: 4rem;
+        position: fixed;
+        z-index: 3;
+   }
+   nav{
+    color: white;
+    @include mobile{
+        display: flex;
+        flex-direction: row-reverse;
+        position: fixed;
+    }
+    
+    #check{
+        display: none;
+        @include mobile{
+            &:checked {
+                & ~ ul {
+                  left: 0;
+                }
+              }
+        }
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-left: 10rem;
+        cursor: pointer;
+        display: none;
+        @include mobile{
+            display: block; 
+        }
+    }
+    .checkbtn i{
+        font-size: 2rem;
+        padding: 2rem;
+        @include mobile{
+            position: relative;
+            bottom: 0.8rem;
+        }
+    }
+    a{
+        .logo{
+            width: 12rem;
+            height: 12rem;
+            margin-left: 20rem;
+            margin-bottom: 7rem;
+            @include mobile{
+                margin: auto;
+                width: 100%;
+                position: relative;
+                bottom: 2.3rem;
+            }
+        }
+
+    }
+    .inicio{
+        list-style-type: none;
+        @include mobile{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background:#033353;
+            top: 3.8rem;
+            left: -100%;
+            text-align: center;
+            transition: all .5s
+        }
+        li{
+            display: inline-block;
+            position: relative;
+            bottom: 15.5rem;
+            left: 40rem;
+            padding-left: 6rem;
+            font-family: 'Chakra Petch', sans-serif;
+            @include mobile{
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+                position: relative;
+                top: 0rem;
+                margin-right: 6rem;
+                left: 2.2rem;
+                bottom: 11rem;
+                font-size: 0.5rem;
+                padding: 0rem;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 0.7rem;
+                &:hover{
+                    background-color: white;
+                    color: #033353;
+                    border-radius: 1.3rem;
+                }
+            @include mobile{
+                font-size: 20px;
+            }
+            }
+    }
+    }
+    
+    }
+}

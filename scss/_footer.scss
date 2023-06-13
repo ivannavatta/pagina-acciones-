@@ -1,0 +1,87 @@
+footer{
+    background-color: #033353;
+    @include mobile{
+        background-color:#033353;
+        width: 100%;
+        position: relative;
+        top: 3rem;
+    }
+    fieldset{
+        text-align: center;
+        legend{
+            i{
+                font-size: 2rem;
+                padding: 2rem;
+                &:hover{
+                    color: white;
+                }
+                @include mobile{
+                    position: relative;
+                     right: 0rem;
+                     bottom: .8rem;
+                }
+            }
+        }
+        .pr{
+            display: inline-block;
+            position: relative;
+            color: white;
+            h3{
+                position: relative;
+                right: 15rem;
+                @include mobile{
+                    position: relative;
+                    right: 0rem;
+                    margin-bottom: 1.5rem;
+                }
+            }
+            p{
+                position: relative;
+                right: 15.5rem;
+                @include mobile{
+                    position: relative;
+                     right: 0rem;
+
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+            }
+        }
+        .info{
+            display: inline-block;
+            color: white;
+            @include mobile{
+                position: relative;
+                right: 19rem;
+                margin-top: 2rem;
+            }
+            h3{
+                position: relative;
+                left: 19rem;
+                @include mobile{
+                    position: relative;
+                    margin-bottom: 1.5rem;
+                }
+            }
+            p{
+                position: relative;
+                left: 19rem;
+            }
+        }
+        .copy{
+            position: relative;
+            right: 14rem;
+            @include mobile{
+                position: relative;
+                right: 0rem;
+            }
+        }
+    }
+    
+
+}

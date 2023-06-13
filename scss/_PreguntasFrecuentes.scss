@@ -1,0 +1,25 @@
+main{
+    section{
+        .preguntasFrecuentes{
+            width: 100%;
+            height: 22rem;
+        }
+    }
+    .titulo-preguntasfrecuentes{
+        text-align: center;
+        position: relative;
+        bottom: 12rem;
+        font-size: 4rem;
+        color:white;
+        font-weight: bold;
+    }
+    .acordion{
+        width: 100rem;
+        .centrar-acordion{
+            padding-left: 25rem;
+            margin-top: 5rem;
+            margin-bottom: 10rem;
+        }
+    }
+
+}

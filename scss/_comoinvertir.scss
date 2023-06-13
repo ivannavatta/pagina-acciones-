@@ -1,0 +1,289 @@
+
+main{
+    section{
+        .imgcomoinvertir{
+            width: 100%;
+            height: 22rem;
+        }
+        .titulocomoinvertir{
+            text-align: center;
+            position: relative;
+            bottom: 12rem;
+            font-size: 4rem;
+            color:white;
+            font-weight: bold;
+        }
+    }
+    section{
+        article{
+            .subtitulocomoinvertir{
+                text-align: center;
+                font-family: 'Forum', cursive;
+                padding-bottom: 7rem;
+                font-weight: bold;
+            } 
+        }
+    }
+    .centrarpasoscomoinvertir{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        color: #033353;
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+        }
+        div{
+            i{
+                
+                padding: 2rem;
+                font-size: 3rem;
+                border-style: solid;
+                border-radius: 5rem;
+            }
+            .txtcomoinvertir{
+                padding-top: 2rem;
+                color: #033353;
+                font-weight: bold;
+            }
+        }
+
+    }
+    .superpadre{
+        margin-top: 7rem;
+        .padre{
+            border: solid;
+            width: 85%;
+            border-radius: 2rem;
+            color:#065a92;
+            position: relative;
+            left: 1rem;
+            @include mobile{
+                position: relative;
+                left: 2.4rem;
+                width: 80%;
+            }
+            .Asesorate_con_un_especialista{
+                display: flex;
+                 padding-top: 3rem;
+                 article{
+                    h2{
+                        color: #065a92;
+                    }
+                    .subtitulo{
+                        padding-left: 1rem;
+                    } 
+                    p{
+                        font-weight: bold;
+                        color: #033353;
+                     
+                    }
+                    .txt{
+                        color: black;
+                        padding-left: 1rem;
+                    }
+                    .img_especialista_en_bolsaresponsive{
+                        display: none;
+                        @include mobile{
+                            display: block;
+                            width: 90%;
+                            position: relative;
+                            left: 1rem;
+                            border-radius: 1rem;
+                            margin-bottom: 1rem;
+                        }
+                    }
+                 }
+                 .img_especialista_en_bolsa{
+                    width: 20%;
+                    height: 14rem;
+                    border-radius: 2rem;
+                   position: relative;
+                   left: 3rem;
+                   @include mobile{
+                    display: none;
+                   }
+                }
+             }
+            
+        }
+        .padre2{
+            border: solid;
+            margin-top: 3rem;
+            border-radius: 2rem;
+            color: #065a92;
+            width: 80%;
+            position: relative;
+            left: 20rem;
+            @include mobile{
+                position: relative;
+                 left: 2.4rem;
+            }
+            .Abri_una_cuenta_sin_costo{
+                display: flex;
+                flex-direction: row;
+                padding-top: 3rem;
+                article{
+                    h2{
+                        color: #065a92;
+                    }
+                    .subtitulo{
+                        padding-left: 1rem;
+                    } 
+                    p{
+                        color: #033353;
+                        font-weight:bold;
+                    }
+                    .txt{
+                        color: black;
+                        padding-left: 1rem;
+                    }
+                    .img_inicio_etororesponsive{
+                        display: none;
+                        @include mobile{
+                            display: block;
+                            width: 90%;
+                        }
+                    }
+                }
+                .img_inicio_etoro{
+                    width: 20%;
+                    height: 14rem;
+                    position: relative;
+                    left: 3rem;
+                    @include mobile{
+                        display: none;
+                    }
+                }
+                
+            }
+        }
+        .padre3{
+            border: solid;
+            margin-top: 3rem;
+            border-radius: 2rem;
+            color: #065a92;
+            width: 80%;
+            position: relative;
+            left: 1rem;
+            @include mobile{
+                position: relative;
+                left: 2.4rem;
+            }
+            .Realiza_una_operacion{
+                padding-top: 3rem;
+                display: flex;
+                article{
+                    h2{
+                        color: #065a92;
+                    }
+                    .subtitulo{
+                        padding-left: 1rem;
+                    } 
+                    p{
+                        color: #033353;
+                        font-weight:bold;
+                    }
+                    .txt{
+                        color: black;
+                        padding-left: 1rem;
+                    }
+                    .img_realizar_operacionresponsive{
+                        display: none;
+                        @include mobile{
+                            display: block;
+                            width: 90%;
+                        }
+                    }
+                }
+                .img_realizar_operacion{
+                    width: 20%;
+                    height: 17rem;
+                    position: relative;
+                    left: 3rem;
+                    @include mobile{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .padre4{
+            border: solid;
+            position: relative;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            border-radius: 2rem;
+            color: #065a92;
+            width: 80%;
+            left: 20rem;
+            @include mobile{
+                position: relative;
+                left: 2.4rem;
+            }
+            .Finaliza_una_operacion{
+                display: flex;
+                flex-direction: row;
+                padding-top: 3rem;
+                article{
+                    h2{
+                        color: #065a92;
+                    }
+                    .subtitulo{
+                        padding-left: 1rem;
+                    } 
+                    p{
+                        color: #033353;
+                        font-weight:bold;
+                    }
+                    .txt{
+                        color: black;
+                        padding-left: 1rem;
+                    }
+                    .img_finalizar_operacionresponsive{
+                        display: none;
+                        @include mobile{
+                            display: block;
+                            width: 90%;
+                            position: relative;
+                            left: 1rem;
+                            padding-bottom: 1rem;
+                        }
+                    }
+                }
+                .img_finalizar_operacion{
+                    width: 20%;
+                    height: 14rem;
+                    position: relative;
+                    left: 5rem;
+                    @include mobile{
+                        display: none;
+                    }
+                }
+            }
+        }
+       
+    }
+    .sugerencia_iconos{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        color: #033353;
+        @include mobile{
+            display: flex;
+        flex-direction: column;
+        }
+        div{
+            i{
+                font-size: 3rem;
+                border-style: solid;
+                border-radius: 5rem;
+                padding: 2rem;
+            }
+            .txtcomoinvertir{
+                padding-top: 2rem;
+                color: #033353;
+                font-weight: bold;
+            }
+        }
+    }
+}

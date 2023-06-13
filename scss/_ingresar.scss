@@ -1,0 +1,194 @@
+main{
+    font-family: 'Chakra Petch', sans-serif;
+    section{
+        .contactanos{
+            height: 22rem;
+            width: 100%;
+            
+        }
+        .up{
+            text-align: center;
+            position: relative;
+            bottom: 12rem;
+            font-size: 4rem;
+            color:white;
+            font-weight: bold;
+        }
+    }
+    .fm{
+        position: relative;
+        bottom: 2.5rem;
+        .txt{
+            padding-left: 32rem;
+        }
+    }
+    .box{
+    
+        position: relative;
+        width: 380px;
+        height: 570px;
+        background: #1c1c1c;
+        border-radius: 8px;
+        overflow: hidden;
+        left: 49rem;
+        &::before{
+            content: '' ;  
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 380px;
+              height: 420px;
+              background: linear-gradient(0deg, transparent,
+              transparent, #45f3ff, #45f3ff, #45f3ff);
+              z-index: 1;
+              transform-origin: bottom right;
+              animation: animate 6s linear infinite;
+          }
+          &::after{
+            content: '' ;  
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 380px;
+              height: 420px;
+              background: linear-gradient(0deg, transparent,
+              transparent, #45f3ff, #45f3ff, #45f3ff);
+              z-index: 1;
+              transform-origin: bottom right;
+              animation: animate 6s linear infinite;
+              animation-delay: -3s;
+          }
+        @keyframes animate{
+            0%
+            {
+              transform: rotate(0deg);  
+            }
+            100%
+            {
+              transform: rotate(360deg);  
+            }
+        }
+
+        form{
+            position: absolute;
+            inset: 4px;
+            background: rgb(3, 51, 83);
+            padding: 50px 22px;
+            border-radius: 8px;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            h2{
+                color: #fff;
+                font-weight: 500;
+                text-align: center;
+                letter-spacing: 0.1rem; 
+             }
+             .inputbox{
+                 position: relative;
+                 width: 300px;
+                 margin-top: 35px;
+                 input{
+                    position: relative;
+                    width: 100%;
+                    padding: 20px 10px 10px;
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    box-shadow: none;
+                    color: #23242a;
+                    font-size: 1rem;
+                    letter-spacing: 0.05rem;
+                    transition: 0.5s;
+                    z-index: 10;
+                    &:valid ~ span,
+                    &:focus ~ span{
+                        color: #fff;
+                        font-size: 0.75rem;
+                        transform: translateY(-34px);
+                    
+                    }
+                    &:valid ~ i,
+                    &:focus ~ i{
+                        height: 44px;
+                      }
+                      [type="submit"]{
+                        border: none;
+                        outline: none;
+                        padding: 9px 25px; 
+                        background: #fff;
+                        cursor: pointer;
+                        font-size: 0.9rem;
+                        border-radius: 4px;
+                        font-weight: 600;
+                        width: 100px;
+                        margin-top: 10px;
+                        &:active{
+                            opacity: 0.8;
+                        }
+                      }
+                      [type="reset"]{
+                        border: none;
+                        outline: none;
+                        padding: 9px 25px; 
+                        background: #fff;
+                        cursor: pointer;
+                        font-size: 0.9rem;
+                        border-radius: 4px;
+                        font-weight: 600;
+                        width: 100px;
+                        margin-top: 10px;
+                        &:active{
+                            opacity: 0.8;
+                        }
+                      }
+                
+                }
+                span{
+                    position: absolute;
+                    left: 0;
+                    padding: 20px 10px 10px;
+                    pointer-events: none;
+                    color: #8f8f8f;
+                    font-size: 1rem;  
+                    letter-spacing: 0.05rem;
+                    transition: 0.5s;  
+                }
+                    i{
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 2px;
+                        background: #fff;
+                        border-radius: 4px;
+                        overflow: hidden;
+                        transition: 0.5s;
+                        pointer-events: none;
+                    
+                    }
+
+                }
+                .links{
+                    display: flex;
+                    justify-content: space-between; 
+                    a{
+                        margin: 10px 0;
+                        font-size: 0.75rem;
+                        color: #8f8f8f;
+                        text-decoration: none;
+                        &:hover,
+                        &:nth-child(2){
+                            color: #fff;
+                        }
+                    }
+                  
+                  }
+                  .inputa{
+    display: flex;
+    justify-content: space-between;
+  }
+
+        }
+    }
+}

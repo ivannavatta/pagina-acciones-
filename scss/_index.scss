@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    strong{
+        color: #033353;
+    }
+    .banner{
+        width: 100%;
+        height: 22rem;
+    }
+    .eslogan{
+    
+        width: 100%;
+        position: relative;
+        bottom: 2rem;
+        background-color: #033353;
+        @include mobile{
+            position: relative;
+             bottom: 1rem;
+        }
+        .pp{
+            color: white;
+            position: relative;
+            font-size: 2rem;
+            font-family: 'Chakra Petch', sans-serif;  
+            font-weight: normal;
+            white-space: nowrap;
+            border-right: 4px ;
+            width: 60ch;
+            animation: typing 2s steps(60), 
+            blink .5s infinite step-end alternate ;
+            overflow: hidden;
+            @include mobile{
+                position: relative;
+               font-size: 0.95rem;
+               width: 33ch;
+               padding-left: 0.5rem;
+                animation: none;
+            }
+        }
+        @keyframes typing {
+            from { width: 0;}
+        }
+        @keyframes blink {
+            50% { border-color: transparent;}
+        }
+        .pp_responsive{
+            display: none;
+            @include mobile{
+                    display: block;
+            }
+        }
+    }
+    section{
+        .subtitulo{
+            font-family: 'Forum', cursive;
+            color: #033353;
+            font-weight: bold;
+            font-size: 2rem;
+            padding-left: 32rem;
+            @include mobile{
+                    padding-left: 0.5rem;
+            }
+        }
+        div{
+            .txt{
+                padding-left: 32rem;
+                font-family: 'Chakra Petch', sans-serif; 
+                @include mobile{
+                    padding-left: 0.5rem;
+                    font-size: 1rem;
+                }
+            }
+
+        }
+
+    }
+    section{
+        .yt{
+            width: 65%;
+            height: 18.75rem;
+            position: relative;
+            padding-left: 45rem;
+            padding-top: 3rem;
+            @include mobile{
+                width: 85%;
+                height: 18.75rem;
+                position: relative;
+                padding-left: 6rem;
+                padding-top: 3rem;
+            }
+        }
+
+    }
+    section{
+        .lower{
+            position: relative;
+            padding-top: 3rem;
+        }
+        
+    }
+    .botton{
+        text-align: center;
+       background-color: #065a92;
+       height: 3rem;
+       @include mobile{
+        position: relative;
+        height: 3rem;
+        top: 3rem;
+    }
+       .principio{
+    
+        position: relative;
+        top: 1rem;
+        color: white;
+        text-decoration: none;
+       
+    }
+    }
+    
+}
