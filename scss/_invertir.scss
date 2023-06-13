@@ -11,6 +11,9 @@ main{
             font-size: 4rem;
             color:white;
             font-weight: bold;
+            @include mobile{
+                font-size: 2.5rem;
+            }
         }
         .contenedoracciones{
             display: block;
