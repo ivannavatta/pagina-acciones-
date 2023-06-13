@@ -131,8 +131,8 @@ main .eslogan {
     @media screen and (max-width: 500px) {
       main .eslogan .pp {
         position: relative;
-        font-size: 0.95rem;
-        width: 33ch;
+        font-size: 0.9rem;
+        width: 31ch;
         padding-left: 0.5rem;
         animation: none; } }
 
