@@ -1,12 +1,7 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-}
+
 main{
     strong{
-        color: #033353;
+        color: $colorstrong;
     }
     .banner{
         width: 100%;
@@ -17,13 +12,13 @@ main{
         width: 100%;
         position: relative;
         bottom: 2rem;
-        background-color: #033353;
+        background-color: $coloreslogan;
         @include mobile{
             position: relative;
              bottom: 1rem;
         }
         .pp{
-            color: white;
+            color: $colorh1;
             position: relative;
             font-size: 2rem;
             font-family: 'Chakra Petch', sans-serif;  
@@ -58,7 +53,7 @@ main{
     section{
         .subtitulo{
             font-family: 'Forum', cursive;
-            color: #033353;
+            color: $colorh2;
             font-weight: bold;
             font-size: 2rem;
             padding-left: 32rem;

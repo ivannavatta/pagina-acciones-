@@ -1,5 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
 header{
-    background-color: #033353;
+    background-color: $colorheader;
    height: 8rem;
    width: 100%;
    position: sticky;
@@ -10,7 +16,7 @@ header{
         z-index: 3;
    }
    nav{
-    color: white;
+    color: $colormenu;
     @include mobile{
         display: flex;
         flex-direction: row-reverse;
@@ -29,7 +35,7 @@ header{
     }
     .checkbtn{
         font-size: 30px;
-        color: white;
+        color: $colormenu;
         float: right;
         line-height: 80px;
         margin-left: 10rem;
@@ -68,7 +74,7 @@ header{
             position: fixed;
             width: 100%;
             height: 100vh;
-            background:#033353;
+            background: $colorheader;
             top: 3.8rem;
             left: -100%;
             text-align: center;
@@ -94,12 +100,12 @@ header{
                 padding: 0rem;
             }
             a{
-                color: white;
+                color: $colormenu;
                 text-decoration: none;
                 padding: 0.7rem;
                 &:hover{
-                    background-color: white;
-                    color: #033353;
+                    background-color: $colormenufondohover;
+                    color: $colormenuhover;
                     border-radius: 1.3rem;
                 }
             @include mobile{

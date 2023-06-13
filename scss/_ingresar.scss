@@ -11,7 +11,7 @@ main{
             position: relative;
             bottom: 12rem;
             font-size: 4rem;
-            color:white;
+            color:$colorh1;
             font-weight: bold;
             @include mobile{
                 font-size: 2.5rem;

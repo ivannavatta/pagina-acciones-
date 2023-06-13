@@ -1,5 +1,7 @@
-body {
-  font-family: 'Chakra Petch', sans-serif; }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
 header {
   background-color: #033353;
@@ -96,80 +98,8 @@ header {
             header nav .inicio li a {
               font-size: 20px; } }
 
-footer {
-  background-color: #033353; }
-  @media screen and (max-width: 500px) {
-    footer {
-      background-color: #033353;
-      width: 100%;
-      position: relative;
-      top: 3rem; } }
-  footer fieldset {
-    text-align: center; }
-    footer fieldset legend i {
-      font-size: 2rem;
-      padding: 2rem; }
-      footer fieldset legend i:hover {
-        color: white; }
-      @media screen and (max-width: 500px) {
-        footer fieldset legend i {
-          position: relative;
-          right: 0rem;
-          bottom: .8rem; } }
-    footer fieldset .pr {
-      display: inline-block;
-      position: relative;
-      color: white; }
-      footer fieldset .pr h3 {
-        position: relative;
-        right: 15rem; }
-        @media screen and (max-width: 500px) {
-          footer fieldset .pr h3 {
-            position: relative;
-            right: 0rem;
-            margin-bottom: 1.5rem; } }
-      footer fieldset .pr p {
-        position: relative;
-        right: 15.5rem; }
-        @media screen and (max-width: 500px) {
-          footer fieldset .pr p {
-            position: relative;
-            right: 0rem; } }
-        footer fieldset .pr p a {
-          text-decoration: none;
-          color: white; }
-          footer fieldset .pr p a:hover {
-            text-decoration: underline; }
-    footer fieldset .info {
-      display: inline-block;
-      color: white; }
-      @media screen and (max-width: 500px) {
-        footer fieldset .info {
-          position: relative;
-          right: 19rem;
-          margin-top: 2rem; } }
-      footer fieldset .info h3 {
-        position: relative;
-        left: 19rem; }
-        @media screen and (max-width: 500px) {
-          footer fieldset .info h3 {
-            position: relative;
-            margin-bottom: 1.5rem; } }
-      footer fieldset .info p {
-        position: relative;
-        left: 19rem; }
-    footer fieldset .copy {
-      position: relative;
-      right: 14rem; }
-      @media screen and (max-width: 500px) {
-        footer fieldset .copy {
-          position: relative;
-          right: 0rem; } }
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
+body {
+  font-family: 'Chakra Petch', sans-serif; }
 
 main strong {
   color: #033353; }
@@ -221,7 +151,7 @@ main .eslogan {
 
 main section .subtitulo {
   font-family: 'Forum', cursive;
-  color: #033353;
+  color: #065a92;
   font-weight: bold;
   font-size: 2rem;
   padding-left: 32rem; }
@@ -289,7 +219,8 @@ main section article .subtitulocomoinvertir {
   text-align: center;
   font-family: 'Forum', cursive;
   padding-bottom: 7rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #065a92; }
 
 main .centrarpasoscomoinvertir {
   display: flex;
@@ -332,8 +263,7 @@ main .superpadre {
       main .superpadre .padre .Asesorate_con_un_especialista article .subtitulo {
         padding-left: 1rem; }
       main .superpadre .padre .Asesorate_con_un_especialista article p {
-        font-weight: bold;
-        color: #033353; }
+        font-weight: bold; }
       main .superpadre .padre .Asesorate_con_un_especialista article .txt {
         color: black;
         padding-left: 1rem; }
@@ -377,7 +307,6 @@ main .superpadre {
       main .superpadre .padre2 .Abri_una_cuenta_sin_costo article .subtitulo {
         padding-left: 1rem; }
       main .superpadre .padre2 .Abri_una_cuenta_sin_costo article p {
-        color: #033353;
         font-weight: bold; }
       main .superpadre .padre2 .Abri_una_cuenta_sin_costo article .txt {
         color: black;
@@ -416,7 +345,6 @@ main .superpadre {
       main .superpadre .padre3 .Realiza_una_operacion article .subtitulo {
         padding-left: 1rem; }
       main .superpadre .padre3 .Realiza_una_operacion article p {
-        color: #033353;
         font-weight: bold; }
       main .superpadre .padre3 .Realiza_una_operacion article .txt {
         color: black;
@@ -457,7 +385,6 @@ main .superpadre {
       main .superpadre .padre4 .Finaliza_una_operacion article .subtitulo {
         padding-left: 1rem; }
       main .superpadre .padre4 .Finaliza_una_operacion article p {
-        color: #033353;
         font-weight: bold; }
       main .superpadre .padre4 .Finaliza_una_operacion article .txt {
         color: black;
@@ -550,7 +477,7 @@ main div .contenedoracciones {
       position: relative;
       right: 1rem; }
       main div .contenedoracciones .acciones .accionesflex .tituloacciones {
-        color: #033353;
+        color: #065a92;
         text-decoration: overline;
         font-family: 'Forum', cursive;
         font-weight: bold; }
@@ -601,7 +528,7 @@ main div .contenedorbonos {
           position: relative;
           left: 0rem; } }
       main div .contenedorbonos .bonos .bonosflex .titulobonos {
-        color: #033353;
+        color: #065a92;
         text-decoration: overline;
         font-family: 'Forum', cursive;
         font-weight: bold; }
@@ -658,7 +585,7 @@ main div .contenedoretf {
       position: relative;
       right: 1rem; }
       main div .contenedoretf .etf .etfflex .tituloetf {
-        color: #033353;
+        color: #065a92;
         text-decoration: overline;
         font-family: 'Forum', cursive;
         font-weight: bold; }
@@ -707,7 +634,7 @@ main div .contenedorfondosmutuos {
           position: relative;
           left: 0rem; } }
       main div .contenedorfondosmutuos .fondosmutuos .fondosmutuosflex .titulofondosmutuos {
-        color: #033353;
+        color: #065a92;
         text-decoration: overline;
         font-family: 'Forum', cursive;
         font-weight: bold; }
@@ -764,7 +691,7 @@ main div .contenedorfuturos {
       position: relative;
       right: 1rem; }
       main div .contenedorfuturos .futuros .futurosflex .titulofuturos {
-        color: #033353;
+        color: #065a92;
         text-decoration: overline;
         font-family: 'Forum', cursive;
         font-weight: bold; }
@@ -976,3 +903,73 @@ main {
       main .box form .inputa {
         display: flex;
         justify-content: space-between; }
+
+footer {
+  background-color: #033353; }
+  @media screen and (max-width: 500px) {
+    footer {
+      background-color: #033353;
+      width: 100%;
+      position: relative;
+      top: 3rem; } }
+  footer fieldset {
+    text-align: center; }
+    footer fieldset legend i {
+      font-size: 2rem;
+      padding: 2rem; }
+      footer fieldset legend i:hover {
+        color: white; }
+      @media screen and (max-width: 500px) {
+        footer fieldset legend i {
+          position: relative;
+          right: 0rem;
+          bottom: .8rem; } }
+    footer fieldset .pr {
+      display: inline-block;
+      position: relative;
+      color: white; }
+      footer fieldset .pr h3 {
+        position: relative;
+        right: 15rem; }
+        @media screen and (max-width: 500px) {
+          footer fieldset .pr h3 {
+            position: relative;
+            right: 0rem;
+            margin-bottom: 1.5rem; } }
+      footer fieldset .pr p {
+        position: relative;
+        right: 15.5rem; }
+        @media screen and (max-width: 500px) {
+          footer fieldset .pr p {
+            position: relative;
+            right: 0rem; } }
+        footer fieldset .pr p a {
+          text-decoration: none;
+          color: white; }
+          footer fieldset .pr p a:hover {
+            text-decoration: underline; }
+    footer fieldset .info {
+      display: inline-block;
+      color: white; }
+      @media screen and (max-width: 500px) {
+        footer fieldset .info {
+          position: relative;
+          right: 19rem;
+          margin-top: 2rem; } }
+      footer fieldset .info h3 {
+        position: relative;
+        left: 19rem; }
+        @media screen and (max-width: 500px) {
+          footer fieldset .info h3 {
+            position: relative;
+            margin-bottom: 1.5rem; } }
+      footer fieldset .info p {
+        position: relative;
+        left: 19rem; }
+    footer fieldset .copy {
+      position: relative;
+      right: 14rem; }
+      @media screen and (max-width: 500px) {
+        footer fieldset .copy {
+          position: relative;
+          right: 0rem; } }
