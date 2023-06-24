@@ -65,6 +65,10 @@ header{
                 position: relative;
                 bottom: 2.3rem;
             }
+            /*@include notebook{
+               margin-left: 0rem;
+            }
+            */
         }
 
     }
@@ -99,6 +103,10 @@ header{
                 font-size: 0.5rem;
                 padding: 0rem;
             }
+            /*@include notebook{
+                position: relative;
+                left: 12rem;
+            }*/
             a{
                 color: $colormenu;
                 text-decoration: none;

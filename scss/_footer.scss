@@ -9,18 +9,22 @@ footer{
     fieldset{
         text-align: center;
         legend{
-            i{
-                font-size: 2rem;
-                padding: 2rem;
-                &:hover{
-                    color: white;
-                }
-                @include mobile{
-                    position: relative;
-                     right: 0rem;
-                     bottom: .8rem;
+            a{
+                color: black;
+                i{
+                    font-size: 2rem;
+                    padding: 2rem;
+                    &:hover{
+                        color: white;
+                    }
+                    @include mobile{
+                        position: relative;
+                         right: 0rem;
+                         bottom: .8rem;
+                    }
                 }
             }
+
         }
         .pr{
             display: inline-block;
@@ -75,7 +79,7 @@ footer{
         }
         .copy{
             position: relative;
-            right: 14rem;
+            right: 0rem;
             @include mobile{
                 position: relative;
                 right: 0rem;

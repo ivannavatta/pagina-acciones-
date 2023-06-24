@@ -15,12 +15,16 @@ main{
         @include mobile{
             font-size: 2.5rem;
         }
+        
     }
     .acordion{
         width: 100rem;
         @include mobile{
             width: auto;
         }
+        /*@include notebook{
+            width: 80rem;
+    }*/
         .centrar-acordion{
             padding-left: 25rem;
             margin-top: 5rem;
@@ -28,6 +32,9 @@ main{
             @include mobile{
                 padding: 0%;
             }
+            /*@include notebook{
+                padding-left: 8rem;
+        }*/
         }
     }
 

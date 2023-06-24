@@ -60,6 +60,9 @@ main{
             @include mobile{
                     padding-left: 0.5rem;
             }
+            /*@include notebook{
+                padding-left: 20rem;
+        }*/
         }
         div{
             .txt{
@@ -69,6 +72,9 @@ main{
                     padding-left: 0.5rem;
                     font-size: 1rem;
                 }
+                /*@include notebook{
+                    padding-left: 20rem;
+            }*/
             }
 
         }

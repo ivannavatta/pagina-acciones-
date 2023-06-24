@@ -1,3 +1,9 @@
+/*@mixin notebook{
+
+    @media  screen and (max-width: 1450px){
+        @content;
+    }
+    }*/
 * {
   padding: 0;
   margin: 0;
@@ -48,7 +54,11 @@ header {
       width: 12rem;
       height: 12rem;
       margin-left: 20rem;
-      margin-bottom: 7rem; }
+      margin-bottom: 7rem;
+      /*@include notebook{
+               margin-left: 0rem;
+            }
+            */ }
       @media screen and (max-width: 500px) {
         header nav a .logo {
           margin: auto;
@@ -73,7 +83,11 @@ header {
         bottom: 15.5rem;
         left: 40rem;
         padding-left: 6rem;
-        font-family: 'Chakra Petch', sans-serif; }
+        font-family: 'Chakra Petch', sans-serif;
+        /*@include notebook{
+                position: relative;
+                left: 12rem;
+            }*/ }
         @media screen and (max-width: 500px) {
           header nav .inicio li {
             display: block;
@@ -154,14 +168,20 @@ main section .subtitulo {
   color: #065a92;
   font-weight: bold;
   font-size: 2rem;
-  padding-left: 32rem; }
+  padding-left: 32rem;
+  /*@include notebook{
+                padding-left: 20rem;
+        }*/ }
   @media screen and (max-width: 500px) {
     main section .subtitulo {
       padding-left: 0.5rem; } }
 
 main section div .txt {
   padding-left: 32rem;
-  font-family: 'Chakra Petch', sans-serif; }
+  font-family: 'Chakra Petch', sans-serif;
+  /*@include notebook{
+                    padding-left: 20rem;
+            }*/ }
   @media screen and (max-width: 500px) {
     main section div .txt {
       padding-left: 0.5rem;
@@ -249,7 +269,11 @@ main .superpadre {
     border-radius: 2rem;
     color: #065a92;
     position: relative;
-    left: 1rem; }
+    left: 1rem;
+    /*@include notebook{
+                position: relative;
+                width: 90%;
+            }*/ }
     @media screen and (max-width: 500px) {
       main .superpadre .padre {
         position: relative;
@@ -282,7 +306,11 @@ main .superpadre {
         height: 14rem;
         border-radius: 2rem;
         position: relative;
-        left: 3rem; }
+        left: 3rem;
+        /*@include notebook{
+                    position: relative;
+                    left: 0rem;
+                   }*/ }
         @media screen and (max-width: 500px) {
           main .superpadre .padre .Asesorate_con_un_especialista .img_especialista_en_bolsa {
             display: none; } }
@@ -293,7 +321,12 @@ main .superpadre {
     color: #065a92;
     width: 80%;
     position: relative;
-    left: 20rem; }
+    left: 20rem;
+    /*@include notebook{
+                position: relative;
+                 left: 8rem;
+                 width: 89%;
+            }*/ }
     @media screen and (max-width: 500px) {
       main .superpadre .padre2 {
         position: relative;
@@ -321,7 +354,11 @@ main .superpadre {
         width: 20%;
         height: 14rem;
         position: relative;
-        left: 3rem; }
+        left: 3rem;
+        /*@include notebook{
+                        position: relative;
+                        left: 0rem;
+                    }*/ }
         @media screen and (max-width: 500px) {
           main .superpadre .padre2 .Abri_una_cuenta_sin_costo .img_inicio_etoro {
             display: none; } }
@@ -332,7 +369,11 @@ main .superpadre {
     color: #065a92;
     width: 80%;
     position: relative;
-    left: 1rem; }
+    left: 1rem;
+    /*@include notebook{
+                position: relative;
+                 width: 89%;
+            }*/ }
     @media screen and (max-width: 500px) {
       main .superpadre .padre3 {
         position: relative;
@@ -359,7 +400,11 @@ main .superpadre {
         width: 20%;
         height: 17rem;
         position: relative;
-        left: 3rem; }
+        left: 3rem;
+        /*@include notebook{
+                        position: relative;
+                        left: 0rem;
+                       }*/ }
         @media screen and (max-width: 500px) {
           main .superpadre .padre3 .Realiza_una_operacion .img_realizar_operacion {
             display: none; } }
@@ -371,7 +416,12 @@ main .superpadre {
     border-radius: 2rem;
     color: #065a92;
     width: 80%;
-    left: 20rem; }
+    left: 20rem;
+    /*@include notebook{
+                position: relative;
+                 left: 8rem;
+                 width: 89%;
+            }*/ }
     @media screen and (max-width: 500px) {
       main .superpadre .padre4 {
         position: relative;
@@ -402,7 +452,11 @@ main .superpadre {
         width: 20%;
         height: 14rem;
         position: relative;
-        left: 5rem; }
+        left: 5rem;
+        /*@include notebook{
+                        position: relative;
+                        left: 0rem;
+                       }*/ }
         @media screen and (max-width: 500px) {
           main .superpadre .padre4 .Finaliza_una_operacion .img_finalizar_operacion {
             display: none; } }
@@ -446,7 +500,10 @@ main div .contenedoracciones {
   position: relative;
   bottom: 5.5rem;
   padding-bottom: 2rem;
-  padding-left: 45rem; }
+  padding-left: 45rem;
+  /*@include notebook{
+                padding-left: 10rem;
+        }*/ }
   @media screen and (max-width: 500px) {
     main div .contenedoracciones {
       display: block;
@@ -465,7 +522,13 @@ main div .contenedoracciones {
       height: 20rem;
       position: relative;
       right: 15rem;
-      border-radius: 2rem; }
+      border-radius: 2rem;
+      /*@include notebook{
+                        width: 39%;
+                        height: 18rem;
+                        position: relative;
+                        right: 5rem;
+                }*/ }
       @media screen and (max-width: 500px) {
         main div .contenedoracciones .acciones .imgacciones {
           display: none;
@@ -504,7 +567,10 @@ main div .contenedorbonos {
   position: relative;
   bottom: 5.5rem;
   padding-bottom: 2rem;
-  padding-left: 40rem; }
+  padding-left: 40rem;
+  /*@include notebook{
+                padding-left: 15rem;
+        }*/ }
   @media screen and (max-width: 500px) {
     main div .contenedorbonos {
       display: block;
@@ -543,7 +609,12 @@ main div .contenedorbonos {
       position: relative;
       margin-left: 2rem;
       border-radius: 2rem;
-      right: 1rem; }
+      right: 1rem;
+      /*@include notebook{
+                        width: 40%;
+                        position: relative;
+                        right: 5rem;
+                }*/ }
       @media screen and (max-width: 500px) {
         main div .contenedorbonos .bonos .imgbonos {
           width: 80%;
@@ -554,7 +625,10 @@ main div .contenedoretf {
   position: relative;
   bottom: 5.5rem;
   padding-bottom: 2rem;
-  padding-left: 44rem; }
+  padding-left: 44rem;
+  /*@include notebook{
+                padding-left: 18rem;
+        }*/ }
   @media screen and (max-width: 500px) {
     main div .contenedoretf {
       display: block;
@@ -573,7 +647,13 @@ main div .contenedoretf {
       height: 20rem;
       position: relative;
       right: 15rem;
-      border-radius: 2rem; }
+      border-radius: 2rem;
+      /*@include notebook{
+                        width: 45%;
+                        height: 18rem;
+                        position: relative;
+                        right: 13rem;
+                }*/ }
       @media screen and (max-width: 500px) {
         main div .contenedoretf .etf .imgetf {
           display: none;
@@ -610,7 +690,10 @@ main div .contenedorfondosmutuos {
   position: relative;
   bottom: 5.5rem;
   padding-bottom: 2rem;
-  padding-left: 44rem; }
+  padding-left: 44rem;
+  /*@include notebook{
+                padding-left: 15rem;
+        }*/ }
   @media screen and (max-width: 500px) {
     main div .contenedorfondosmutuos {
       display: block;
@@ -649,7 +732,12 @@ main div .contenedorfondosmutuos {
       position: relative;
       margin-left: 2rem;
       border-radius: 2rem;
-      right: 1rem; }
+      right: 1rem;
+      /*@include notebook{
+                        width: 40%;
+                        position: relative;
+                        right: 5rem;
+                }*/ }
       @media screen and (max-width: 500px) {
         main div .contenedorfondosmutuos .fondosmutuos .imgfondosmutuos {
           width: 80%;
@@ -660,7 +748,10 @@ main div .contenedorfuturos {
   position: relative;
   bottom: 5.5rem;
   padding-bottom: 2rem;
-  padding-left: 44rem; }
+  padding-left: 44rem;
+  /*@include notebook{
+                padding-left: 10rem;
+        }*/ }
   @media screen and (max-width: 500px) {
     main div .contenedorfuturos {
       display: block;
@@ -679,7 +770,13 @@ main div .contenedorfuturos {
       height: 20rem;
       position: relative;
       right: 13.3rem;
-      border-radius: 2rem; }
+      border-radius: 2rem;
+      /*@include notebook{
+                        width: 40%;
+                        height: 18rem;
+                        position: relative;
+                        right: 6rem;
+                }*/ }
       @media screen and (max-width: 500px) {
         main div .contenedorfuturos .futuros .imgfuturos {
           display: none;
@@ -727,14 +824,20 @@ main .titulo-preguntasfrecuentes {
       font-size: 2.5rem; } }
 
 main .acordion {
-  width: 100rem; }
+  width: 100rem;
+  /*@include notebook{
+            width: 80rem;
+    }*/ }
   @media screen and (max-width: 500px) {
     main .acordion {
       width: auto; } }
   main .acordion .centrar-acordion {
     padding-left: 25rem;
     margin-top: 5rem;
-    margin-bottom: 10rem; }
+    margin-bottom: 10rem;
+    /*@include notebook{
+                padding-left: 8rem;
+        }*/ }
     @media screen and (max-width: 500px) {
       main .acordion .centrar-acordion {
         padding: 0%; } }
@@ -758,7 +861,11 @@ main {
     position: relative;
     bottom: 2.5rem; }
     main .fm .txt {
-      padding-left: 32rem; }
+      padding-left: 32rem;
+      /*@include notebook{
+                padding-left: 0rem;
+                text-align: center;
+        }*/ }
       @media screen and (max-width: 500px) {
         main .fm .txt {
           padding-left: 0.5rem;
@@ -770,7 +877,11 @@ main {
     background: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
-    left: 49rem; }
+    left: 49rem;
+    /*@include notebook{
+            position: relative;
+            left: 31rem;
+    }*/ }
     @media screen and (max-width: 500px) {
       main .box {
         position: relative;
@@ -903,6 +1014,10 @@ main {
       main .box form .inputa {
         display: flex;
         justify-content: space-between; }
+        main .box form .inputa input {
+          width: 30%;
+          height: 3rem;
+          border-radius: 2rem; }
 
 footer {
   background-color: #033353; }
@@ -914,16 +1029,18 @@ footer {
       top: 3rem; } }
   footer fieldset {
     text-align: center; }
-    footer fieldset legend i {
-      font-size: 2rem;
-      padding: 2rem; }
-      footer fieldset legend i:hover {
-        color: white; }
-      @media screen and (max-width: 500px) {
-        footer fieldset legend i {
-          position: relative;
-          right: 0rem;
-          bottom: .8rem; } }
+    footer fieldset legend a {
+      color: black; }
+      footer fieldset legend a i {
+        font-size: 2rem;
+        padding: 2rem; }
+        footer fieldset legend a i:hover {
+          color: white; }
+        @media screen and (max-width: 500px) {
+          footer fieldset legend a i {
+            position: relative;
+            right: 0rem;
+            bottom: .8rem; } }
     footer fieldset .pr {
       display: inline-block;
       position: relative;
@@ -968,7 +1085,7 @@ footer {
         left: 19rem; }
     footer fieldset .copy {
       position: relative;
-      right: 14rem; }
+      right: 0rem; }
       @media screen and (max-width: 500px) {
         footer fieldset .copy {
           position: relative;
